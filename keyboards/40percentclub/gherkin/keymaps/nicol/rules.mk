@@ -1,2 +1,2 @@
-RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
+# RGBLIGHT_ENABLE = yes        # Enable keyboard RGB underglow
 

@@ -1,13 +1,9 @@
 #pragma once
+#define TAPPING_TOGGLE 2
 
 #define RGB_DI_PIN D3
 #ifdef RGB_DI_PIN
-  
-  #ifdef RGBLED_NUM
-    #undef RGBLED_NUM
-  #endif
-  #define RGBLED_NUM 4
-  
+  #define RGBLED_NUM 8
   #define RGBLIGHT_HUE_STEP 8
   #define RGBLIGHT_SAT_STEP 8
   #define RGBLIGHT_VAL_STEP 8
