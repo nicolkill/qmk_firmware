@@ -1,5 +1,7 @@
 #pragma once
 
+#define AUTO_SHIFT_TIMEOUT 300
+
 #define RGB_DI_PIN D3
 #ifdef RGB_DI_PIN
   
